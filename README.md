@@ -8,15 +8,15 @@ Application is built with Flask, SQLAlchemy and SQLite database.
 How it looks
 ----------------
 Index page example:
-![Index page example](/additional_information/index_page.png)
+![Index page example](/example/index_page.png)
   
   
 Product page example:
-![Product page example](/additional_information/product_page.png)
+![Product page example](/example/product_page.png)
 
 Database scheme
 --------------------
-![Database scheme](/additional_information/database_scheme.png)
+![Database scheme](/example/database_scheme.png)
 
 Installation
 -----------
@@ -34,6 +34,11 @@ Laptop-Market runs with Python 3.6+.
 
 How to run
 -------------
+Set SECRET_KEY enviroment variable. For example:
+```
+$ export SECRET_KEY="top_secret"
+```
+Then run application:
 ```
 python3 run.py
 ```
